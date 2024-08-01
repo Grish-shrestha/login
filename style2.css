@@ -1,0 +1,49 @@
+.body,html{
+    margin: 0;
+    height: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.grish{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: #f5f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.create-button{
+    padding: 10px;
+    margin: 80px;
+    background-color:black;
+    border: 8px;
+    border-radius:5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5ff;
+    margin: 30px;
+    position: relative;
+
+}
+.input-group{
+    margin: 15px; 
+}
+label {
+    display: block;
+    margin-bottom: 0px;
+    color: #333;
+}
+input[type="username"],input[type="gmail"],input[type="password"]{
+    width:100% ;
+    margin: 5px;
+    border:1x solid ;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+
+}
