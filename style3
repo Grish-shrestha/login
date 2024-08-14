@@ -1,8 +1,10 @@
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     font-family: Arial;
+    border: #ddd;
+    border-radius: 10px;
   }
   
  
@@ -60,10 +62,17 @@
   
  
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color:#ddd;
   }
   
 
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .img{
+    position: fixed;
+    height: 100%;
+    display: flex;
+    width:600% ;
+
   }

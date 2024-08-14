@@ -19,37 +19,30 @@ body {
     max-width: 400px;
     padding: 20px;
 }
-.login-box {
-    background-color:darkcyan;
-    padding: 6px; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align:center;
-    border: 4px;
-    border-color:black ;    
+
+
+.p1{
+    margin-bottom:15px ;
+    margin:10px;
 }
-
-.logo img {
-    width: 100px;
-    margin-bottom: 20px;
-}
-
-
 
 p {
-    color: #666;
+    color:black;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.google-login {
-    background-color: black;
+/* .google-login {
+    background-color: blue;
     color: white;
-    border: none;
+    border: #ccc;
+    border-radius:8px ;
     padding: 5px;
     width: 60%;
     margin-bottom: 20px;
     cursor: pointer;
-    font-size: 16px;
-}
+    font-size: 12px;
+} */
 
 form {
     margin-bottom: 20px;
@@ -57,21 +50,30 @@ form {
 
 .input-group {
     margin-bottom: 15px;
-    text-align: left;
+    text-align: start;
+    position: relative;
+    
 }
 
-label {
+.input-group>label {
     display: block;
-    margin-bottom: 5px;
-    color: #333;
+    position: absolute;
+   left: 10px;
+   top: 10px;
+   z-index: 1;
 }
 
 input[type="email"], input[type="password"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 0;
+    border-radius: 15px;
     font-size: 16px;
+    text-align: center;
+}
+input:focus{
+    border:0;
+    outline: none;
 }
 
 .remember-me {
@@ -89,17 +91,18 @@ input[type="email"], input[type="password"] {
     color:white ;
     border: 2px;
     padding: 5px;
-    width: 100%;
+    width: 30%;
     cursor: pointer;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 13px;
+    border-radius: 8px;
+    font-family: Arial;
 }
 button { background-color: #3545f3;} 
 
 .forgot-password {
     text-decoration: none;
     color: #3d5afe;
-}
+    }
 .image{
     size: 4cm;
     position: fixed;
@@ -110,17 +113,19 @@ button { background-color: #3545f3;}
     height: 100px;
     width: 100px;
     float: right;
-    margin: 10px;
+    margin: 0px;
     position: absolute;
     top: 0px;
     right: 0px;
+    left: 70%;
+    bottom: 150px;
 }
 
-.logo img {  object-fit:cover ; height: 100%; width: 100%;right:-150px ;top:-10px; }
+.logo img {  object-fit:cover ; height: 100%; width: 100%;right:-150px ;top:-80px; }
 
-.head{
+/* .head{
     text-align: center;
     color: black;
     position: fixed;
 
-}
+} */
